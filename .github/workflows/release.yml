@@ -35,7 +35,7 @@ jobs:
           asset_name: statique.zip
           asset_content_type: application/zip
       - name: Upload Release Asset Javadoc
-        id: upload-release-asset 
+        id: upload-release-asset-javadoc
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
